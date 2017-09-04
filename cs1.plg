@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cs1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP86.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/cs1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\project3\cs1\cs1.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP86.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP87.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/cs1.pdb" /debug /machine:I386 /out:"Debug/cs1.exe" /pdbtype:sept 
+.\Debug\3DS.OBJ
+.\Debug\anmobj.obj
+.\Debug\cs1.obj
+.\Debug\filereport.obj
+.\Debug\gamemap.obj
+.\Debug\GLFont.obj
+.\Debug\MathLib.obj
+.\Debug\md2.obj
+.\Debug\MDLModel.obj
+.\Debug\mdlobj.obj
+.\Debug\OpenGL.obj
+.\Debug\StdAfx.obj
+.\Debug\Script1.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP87.tmp"
+<h3>Output Window</h3>
+Compiling...
+cs1.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP88.tmp" with contents
+[
+/nologo /o"Debug/cs1.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\3DS.SBR
+.\Debug\anmobj.sbr
+.\Debug\cs1.sbr
+.\Debug\filereport.sbr
+.\Debug\gamemap.sbr
+.\Debug\GLFont.sbr
+.\Debug\MathLib.sbr
+.\Debug\md2.sbr
+.\Debug\MDLModel.sbr
+.\Debug\mdlobj.sbr
+.\Debug\OpenGL.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP88.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+cs1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
